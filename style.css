@@ -1,0 +1,66 @@
+  body {
+    color:white;
+  }
+  
+  .card {
+    padding: 20px 0px;
+    background: transparent;
+    border:transparent;
+    box-shadow:-1px 2px 2px 2px rgb(255, 255, 255);
+
+  }
+  .card-title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    padding: 20px 0px;
+    font-weight: 600;
+  }
+  
+  label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:500;
+  }
+  
+  select {
+    margin-bottom: 40px;
+  }
+  
+  #selectInputDegreeType {
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  
+  .convertBtn {
+    min-width: 10px;
+    background-color:black;
+  
+  
+  }
+  
+  .convertBtn:hover {
+    transition: 0.5s;
+    background-color:black;
+  }
+    #resultValueSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    height: 200px;
+    word-wrap: normal;
+    text-align: center;
+    font-size-adjust: 0.58;
+  
+  }
+  
+  #convertedDegree {
+    font-size: 65px;
+    font-weight: 500;
+    max-width: 500px;
+  }
+  
+  #convertedUnit,
+  #degree {
+    padding-bottom: 70px;
+  }
+  
